@@ -1,0 +1,7 @@
+{
+	"desc": "POI推荐小程序",
+	"rules": [{
+	"action": "allow",
+	"page": "*"
+	}]
+}

@@ -1,0 +1,1 @@
+"/Applications/wechatwebdevtools.app/Contents/MacOS/cli" cloud functions deploy --e cloud1-9gd300gl39c4746f --n lbs_server --r --project "/Users/huangboyi/WeChatProjects/POI_predict" --report_first --report

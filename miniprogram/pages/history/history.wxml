@@ -1,0 +1,7 @@
+<!--pages/history/history.wxml-->
+<wxs module="common" src="./common.wxs"></wxs>
+<button class="predictbtn" bindtap="topredict">轨迹预测</button>
+<view class='tips'>以下记录显示最近的20条签到信息</view>
+<view class="info_model" wx:for="{{checkins}}" wx:key="time">
+  <view>时间: {{common.TimeToDate(item.timestamp)}}\n地点: {{item.address}} </view>
+</view>

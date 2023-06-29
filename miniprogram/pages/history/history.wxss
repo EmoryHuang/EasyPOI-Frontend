@@ -1,0 +1,41 @@
+page{
+	background-color: #f4f4f4;
+	padding-bottom: 48rpx;
+}
+.tips{
+  font-family: PingFang-SC-Regular;
+  margin-top: 18rpx;
+  font-size: 28rpx;
+  color: var(--lb-color);
+  text-align: center;
+  font-weight: 400;
+}
+.info_model{
+	background-color: #FFFFFF;
+	width: 690rpx;
+	margin: 32rpx auto;
+	border-radius: 16rpx;
+	padding: 40rpx;
+	min-height: 48rpx;
+	display: flex;
+}
+.info_model view{
+  white-space: pre-wrap;
+	font-size: 35rpx;
+	color: var(--lb-color);
+	width: 90%;
+}
+.predictbtn{
+  margin-top: 32rpx;
+  height: 96rpx;
+  width: 90% !important;
+  line-height: 96rpx;
+  border-radius: 8rpx;
+  font-size: 34rpx;
+  padding: 0;
+  color: #FFFFFF;
+  background: var(--mb-color);
+}
+.predictbtn:active{
+  background: var(--zb-color);
+}

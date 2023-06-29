@@ -1,0 +1,5 @@
+<image class="topimg" src="../../asset/top.svg"></image>
+<view class="title">POI预测</view>
+<view class="tips">POI预测小程序将获取您的定位进行地点签到，并根据历史签到地点为您进行POI推荐</view>
+<button class="mainbtn" bindtap="tomap">获取定位</button>
+<button class="mainbtn" bindtap="tohistory">历史签到查询</button>

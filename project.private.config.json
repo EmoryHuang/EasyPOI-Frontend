@@ -1,0 +1,8 @@
+{
+  "description": "POI预测",
+  "projectname": "POI_predict",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": true
+  }
+}
